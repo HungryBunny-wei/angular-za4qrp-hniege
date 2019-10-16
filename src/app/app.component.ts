@@ -8,7 +8,8 @@ import {Overlay, OverlayKeyboardDispatcher, OverlayRef} from '@angular/cdk/overl
         <div class="ant-modal-mask"></div>
         <div class="ant-modal-wrap">
           <div class="ant-modal">
-          <img src="./detail.png">
+            <div class=ant-modal-raduis></div>
+            <img src="../assets/detail.png">
           </div>
         </div>
       </div>
@@ -18,7 +19,7 @@ import {Overlay, OverlayKeyboardDispatcher, OverlayRef} from '@angular/cdk/overl
     `
 .ant-modal{
   width: 3.2rem;
-  backgroud: #fff;
+  background: #fff;
 }
     `
   ]
