@@ -8,10 +8,11 @@ import {Overlay, OverlayKeyboardDispatcher, OverlayRef} from '@angular/cdk/overl
         <div class="ant-modal-mask"></div>
         <div class="ant-modal-wrap">
           <div class="ant-modal">
+          <img src="./detail.png">
           </div>
         </div>
       </div>
-    <button (click)="open()"></button>
+    <button nz-button (click)="open()" nzType="primary">打开</button>
   `,
   styles: [
     `
